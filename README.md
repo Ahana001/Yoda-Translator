@@ -11,4 +11,4 @@ CSS
 
 JS
 # API Used
-(funtranslations)[https://funtranslations.com/yoda]
+[funtranslations](https://funtranslations.com/yoda)
