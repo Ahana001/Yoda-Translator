@@ -10,7 +10,8 @@ function getTranlatedText(text, outputBox) {
         .then((res) => res.json())
         .then((text) => {
             var outputText = text.contents.translated;
-            outputBox.innerText = outputText
+            var newTextNode = document.createTextNode(outputText);
+            outputBox.appendChild(newTextNode);
         })
         .catch((err) => {
             alert("somyhing went wrong!! try after some time")
